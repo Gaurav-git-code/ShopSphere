@@ -1,0 +1,22 @@
+package com.darknightcoder.dto;
+
+import com.darknightcoder.constant.Role;
+import lombok.AllArgsConstructor;
+import lombok.Getter;
+import lombok.NoArgsConstructor;
+import lombok.Setter;
+
+import java.util.UUID;
+
+@Setter
+@Getter
+@NoArgsConstructor
+@AllArgsConstructor
+public class LoginResponseDto {
+    private UUID id;
+    private String email;
+    private String fullName;
+    private Role role;
+    private String accessToken;
+    private String tokenType = "Bearer";
+}

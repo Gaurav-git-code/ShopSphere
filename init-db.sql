@@ -1,0 +1,4 @@
+CREATE DATABASE ssuser;
+CREATE DATABASE ss_product;
+CREATE DATABASE ss_order;
+CREATE DATABASE ss_notification;

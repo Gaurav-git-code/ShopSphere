@@ -1,0 +1,4 @@
+# add these to .gitignore
+**/application-docker.properties
+**/.env
+docker-compose.override.yml
